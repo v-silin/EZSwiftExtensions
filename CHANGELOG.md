@@ -3,7 +3,10 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
-1. **UIStackView**
+1.  **Data**
+   - `var attributedString` in [[PR]](https://github.com/goktugyil/EZSwiftExtensions/pull/379) by *Khalian*
+
+2. **UIStackView**
    - `addArrangedSubviews(_ views: UIView...)` in [[PR]](https://github.com/goktugyil/EZSwiftExtensions/pull/396) by *kirakik*
    - `init(distribution: UIStackViewDistribution, alignment: UIStackViewAlignment, axis: UILayoutConstraintAxis, spacing: CGFloat)` in [[PR]](https://github.com/goktugyil/         EZSwiftExtensions/pull/396) by *kirakik*
 
