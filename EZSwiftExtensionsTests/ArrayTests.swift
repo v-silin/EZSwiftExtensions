@@ -245,6 +245,14 @@ class ArrayTests: XCTestCase {
         
         let duplicatedElementsArrayOrderMaintained = [2, 1, 3, 2, 1, 3]
         XCTAssertEqual(duplicatedElementsArrayOrderMaintained.unique(), [2, 1, 3])
-        
+    }
+    
+    func testPMap() {
+        let arr: [Int] = [1, 2, 3, 4, 5]
+        let squaredArr = arr.pmap { (x) in x * x}
+        XCTAssertEqual(squaredArr.map{$0!}, [1, 4, 9, 16, 25])
+
+        let doubledArr = arr.pmap { (x) in 2 * x}
+        XCTAssertEqual(doubledArr.map{$0!}, [2, 4, 6, 8, 10])
     }
 }

@@ -1,6 +1,11 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+## [Unreleased]
+
+1. **Collections**
+  - `func pmap<R>(_ each: @escaping (Self.Iterator.Element) -> R) -> [R?]` in [[PR]](https://github.com/goktugyil/EZSwiftExtensions/pull/394) by *Khalian*
+
 ## [Release 1.9]
 
 ### Fixed bugs 
