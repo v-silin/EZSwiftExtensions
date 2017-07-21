@@ -7,6 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030A13461F222CE200D8653C /* ErrorTypeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15484E11CA2BCF0003B030E /* ErrorTypeExtensions.swift */; };
+		030A13471F222CE200D8653C /* DoubleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F868DA1C2B6E5E00542250 /* DoubleExtensions.swift */; };
+		030A13481F222CE200D8653C /* FloatingPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADFAA621D9D8C2F00CF9F7A /* FloatingPointExtensions.swift */; };
+		030A13491F222CE200D8653C /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19AC0E51DCBA25100908905 /* BundleExtensions.swift */; };
+		030A134A1F222CE200D8653C /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC86FF1C0ED34300972D0A /* ArrayExtensions.swift */; };
+		030A134B1F222CE200D8653C /* UIStoryboardExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A79451D6F506400735549 /* UIStoryboardExtensions.swift */; };
+		030A134C1F222CE200D8653C /* UIWindowExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17878231C86861900BC05AA /* UIWindowExtensions.swift */; };
+		030A134D1F222CE200D8653C /* UIApplicationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AB4F2C1D03394F009183EC /* UIApplicationExtensions.swift */; };
+		030A134E1F222CE200D8653C /* UIEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B96F02C1E2FD32000236DDE /* UIEdgeInsets.swift */; };
+		030A134F1F222CE200D8653C /* BlockButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87001C0ED34300972D0A /* BlockButton.swift */; };
+		030A13501F222CE200D8653C /* BlockLongPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87011C0ED34300972D0A /* BlockLongPress.swift */; };
+		030A13511F222CE200D8653C /* BlockPan.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87021C0ED34300972D0A /* BlockPan.swift */; };
+		030A13521F222CE200D8653C /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19AC0EE1DCBA2BF00908905 /* URLExtensions.swift */; };
+		030A13531F222CE200D8653C /* CharacterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E178781F1C867E9400BC05AA /* CharacterExtensions.swift */; };
+		030A13541F222CE200D8653C /* UIUserInterfaceSizeClassExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10A79501D6F5CCC00735549 /* UIUserInterfaceSizeClassExtensions.swift */; };
+		030A13551F222CE200D8653C /* BlockPinch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87031C0ED34300972D0A /* BlockPinch.swift */; };
+		030A13561F222CE200D8653C /* UserDefaultsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19AC0EB1DCBA28A00908905 /* UserDefaultsExtension.swift */; };
+		030A13571F222CE200D8653C /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9794FF1DDCC80D00E4C959 /* FileManagerExtension.swift */; };
+		030A13581F222CE200D8653C /* BlockSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87041C0ED34300972D0A /* BlockSwipe.swift */; };
+		030A13591F222CE200D8653C /* UITextFieldExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889A85A1D20E8D500635002 /* UITextFieldExtensions.swift */; };
+		030A135A1F222CE200D8653C /* UISwitchExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1587FB11CCA420400A0B071 /* UISwitchExtensions.swift */; };
+		030A135B1F222CE200D8653C /* BlockTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87051C0ED34300972D0A /* BlockTap.swift */; };
+		030A135C1F222CE200D8653C /* BlockWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87061C0ED34300972D0A /* BlockWebView.swift */; };
+		030A135D1F222CE200D8653C /* BoolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87071C0ED34300972D0A /* BoolExtensions.swift */; };
+		030A135E1F222CE200D8653C /* CGFloatExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87081C0ED34300972D0A /* CGFloatExtensions.swift */; };
+		030A135F1F222CE200D8653C /* CGPointExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3292EF1DC5BA6F0078F7F3 /* CGPointExtensions.swift */; };
+		030A13601F222CE200D8653C /* UIStackViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFA538CB1E75D69F0093552E /* UIStackViewExtensions.swift */; };
+		030A13611F222CE200D8653C /* CGRectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87091C0ED34300972D0A /* CGRectExtensions.swift */; };
+		030A13621F222CE200D8653C /* DictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC870A1C0ED34300972D0A /* DictionaryExtensions.swift */; };
+		030A13631F222CE200D8653C /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC870C1C0ED34300972D0A /* IntExtensions.swift */; };
+		030A13641F222CE200D8653C /* NSAttributedStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E178780F1C8651EB00BC05AA /* NSAttributedStringExtensions.swift */; };
+		030A13651F222CE200D8653C /* NSObjectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC870E1C0ED34300972D0A /* NSObjectExtensions.swift */; };
+		030A13661F222CE200D8653C /* NSDictionaryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79AB4F2B1D03394F009183EC /* NSDictionaryExtensions.swift */; };
+		030A13671F222CE200D8653C /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87101C0ED34300972D0A /* StringExtensions.swift */; };
+		030A13681F222CE200D8653C /* UIAlertControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17878171C8676F100BC05AA /* UIAlertControllerExtensions.swift */; };
+		030A13691F222CE200D8653C /* UIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87111C0ED34300972D0A /* UIButtonExtensions.swift */; };
+		030A136A1F222CE200D8653C /* TimerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19AC0F11DCBA2CE00908905 /* TimerExtensions.swift */; };
+		030A136B1F222CE200D8653C /* UIColoredView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87121C0ED34300972D0A /* UIColoredView.swift */; };
+		030A136C1F222CE200D8653C /* UIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87131C0ED34300972D0A /* UIColorExtensions.swift */; };
+		030A136D1F222CE200D8653C /* UIDeviceExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87141C0ED34300972D0A /* UIDeviceExtensions.swift */; };
+		030A136E1F222CE200D8653C /* EZSwiftFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F21CB41CB55CDA004A01A4 /* EZSwiftFunctions.swift */; };
+		030A136F1F222CE200D8653C /* CollectionsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A02399C1E6D345C00C235B8 /* CollectionsExtension.swift */; };
+		030A13701F222CE200D8653C /* UISliderExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E178781B1C8678AA00BC05AA /* UISliderExtensions.swift */; };
+		030A13711F222CE200D8653C /* UIFontExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87151C0ED34300972D0A /* UIFontExtensions.swift */; };
+		030A13721F222CE200D8653C /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87161C0ED34300972D0A /* UIImageExtensions.swift */; };
+		030A13731F222CE200D8653C /* UIImageViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87171C0ED34300972D0A /* UIImageViewExtensions.swift */; };
+		030A13741F222CE200D8653C /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87181C0ED34300972D0A /* UILabelExtensions.swift */; };
+		030A13751F222CE200D8653C /* UITextViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC87191C0ED34300972D0A /* UITextViewExtensions.swift */; };
+		030A13761F222CE200D8653C /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19AC0E81DCBA26500908905 /* DateExtensions.swift */; };
+		030A13771F222CE200D8653C /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC871A1C0ED34300972D0A /* UIViewControllerExtensions.swift */; };
+		030A13781F222CE200D8653C /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DC871B1C0ED34300972D0A /* UIViewExtensions.swift */; };
+		030A13791F222CE200D8653C /* UIBarButtonItemExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1D7CDCF1CF8FFC7008E4C07 /* UIBarButtonItemExtensions.swift */; };
+		030A137C1F222CE200D8653C /* EZSwiftExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = B5DC86AC1C0ED06700972D0A /* EZSwiftExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		030A137E1F222CE200D8653C /* charizard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C2F04A031E4039B500DEA806 /* charizard.jpg */; };
 		0B96C3CF1C86895E00BB2A3B /* URLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B96C3CD1C8688CB00BB2A3B /* URLTests.swift */; };
 		0B96F02D1E2FD32000236DDE /* UIEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B96F02C1E2FD32000236DDE /* UIEdgeInsets.swift */; };
 		0B96F02E1E2FD32500236DDE /* UIEdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B96F02C1E2FD32000236DDE /* UIEdgeInsets.swift */; };
@@ -351,6 +405,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		030A13431F222CA100D8653C /* EZSwiftExtensions copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "EZSwiftExtensions copy-Info.plist"; path = "/Users/vasilisilin/Developer/Forks/EZSwiftExtensions/EZSwiftExtensions copy-Info.plist"; sourceTree = "<absolute>"; };
+		030A13831F222CE200D8653C /* EZSwiftExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EZSwiftExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		030A13841F222CE300D8653C /* EZSwiftExtensions-iOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "EZSwiftExtensions-iOS copy-Info.plist"; path = "/Users/vasilisilin/Developer/Forks/EZSwiftExtensions/EZSwiftExtensions-iOS copy-Info.plist"; sourceTree = "<absolute>"; };
 		0B96C3CD1C8688CB00BB2A3B /* URLTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLTests.swift; sourceTree = "<group>"; };
 		0B96F02C1E2FD32000236DDE /* UIEdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIEdgeInsets.swift; sourceTree = "<group>"; };
 		0B96F02F1E2FD33C00236DDE /* UIEdgeInsetsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIEdgeInsetsTests.swift; sourceTree = "<group>"; };
@@ -467,6 +524,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		030A137A1F222CE200D8653C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5AF5775D1EEE527500B1C277 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -521,6 +585,8 @@
 				B5DC86AB1C0ED06700972D0A /* EZSwiftExtensions */,
 				B5DC86B71C0ED06700972D0A /* EZSwiftExtensionsTests */,
 				B5DC86AA1C0ED06700972D0A /* Products */,
+				030A13431F222CA100D8653C /* EZSwiftExtensions copy-Info.plist */,
+				030A13841F222CE300D8653C /* EZSwiftExtensions-iOS copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -533,6 +599,7 @@
 				CD4D315E1CEEB9EA00CB53BC /* EZSwiftExtensionsTest.xctest */,
 				5AF577611EEE527500B1C277 /* EZSwiftExtensions.framework */,
 				5AF577691EEE527500B1C277 /* EZSwiftExtensionsTests.xctest */,
+				030A13831F222CE200D8653C /* EZSwiftExtensions.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -669,6 +736,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		030A137B1F222CE200D8653C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030A137C1F222CE200D8653C /* EZSwiftExtensions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5AF5775E1EEE527500B1C277 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -695,6 +770,25 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		030A13441F222CE200D8653C /* EZSwiftExtensions-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030A13801F222CE200D8653C /* Build configuration list for PBXNativeTarget "EZSwiftExtensions-watchOS" */;
+			buildPhases = (
+				030A13451F222CE200D8653C /* Sources */,
+				030A137A1F222CE200D8653C /* Frameworks */,
+				030A137B1F222CE200D8653C /* Headers */,
+				030A137D1F222CE200D8653C /* Resources */,
+				030A137F1F222CE200D8653C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EZSwiftExtensions-watchOS";
+			productName = EZSwiftExtensions;
+			productReference = 030A13831F222CE200D8653C /* EZSwiftExtensions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		5AF577601EEE527500B1C277 /* EZSwiftExtensions */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AF577761EEE527500B1C277 /* Build configuration list for PBXNativeTarget "EZSwiftExtensions" */;
@@ -851,11 +945,20 @@
 				CD4D314A1CEEB9EA00CB53BC /* EZSwiftExtensionsTests-tvOS */,
 				5AF577601EEE527500B1C277 /* EZSwiftExtensions */,
 				5AF577681EEE527500B1C277 /* EZSwiftExtensionsTests */,
+				030A13441F222CE200D8653C /* EZSwiftExtensions-watchOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		030A137D1F222CE200D8653C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030A137E1F222CE200D8653C /* charizard.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5AF5775F1EEE527500B1C277 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -905,6 +1008,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		030A137F1F222CE200D8653C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nfi";
+		};
 		B27008081CAA12D5002177ED /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -934,6 +1050,65 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		030A13451F222CE200D8653C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030A13461F222CE200D8653C /* ErrorTypeExtensions.swift in Sources */,
+				030A13471F222CE200D8653C /* DoubleExtensions.swift in Sources */,
+				030A13481F222CE200D8653C /* FloatingPointExtensions.swift in Sources */,
+				030A13491F222CE200D8653C /* BundleExtensions.swift in Sources */,
+				030A134A1F222CE200D8653C /* ArrayExtensions.swift in Sources */,
+				030A134B1F222CE200D8653C /* UIStoryboardExtensions.swift in Sources */,
+				030A134C1F222CE200D8653C /* UIWindowExtensions.swift in Sources */,
+				030A134D1F222CE200D8653C /* UIApplicationExtensions.swift in Sources */,
+				030A134E1F222CE200D8653C /* UIEdgeInsets.swift in Sources */,
+				030A134F1F222CE200D8653C /* BlockButton.swift in Sources */,
+				030A13501F222CE200D8653C /* BlockLongPress.swift in Sources */,
+				030A13511F222CE200D8653C /* BlockPan.swift in Sources */,
+				030A13521F222CE200D8653C /* URLExtensions.swift in Sources */,
+				030A13531F222CE200D8653C /* CharacterExtensions.swift in Sources */,
+				030A13541F222CE200D8653C /* UIUserInterfaceSizeClassExtensions.swift in Sources */,
+				030A13551F222CE200D8653C /* BlockPinch.swift in Sources */,
+				030A13561F222CE200D8653C /* UserDefaultsExtension.swift in Sources */,
+				030A13571F222CE200D8653C /* FileManagerExtension.swift in Sources */,
+				030A13581F222CE200D8653C /* BlockSwipe.swift in Sources */,
+				030A13591F222CE200D8653C /* UITextFieldExtensions.swift in Sources */,
+				030A135A1F222CE200D8653C /* UISwitchExtensions.swift in Sources */,
+				030A135B1F222CE200D8653C /* BlockTap.swift in Sources */,
+				030A135C1F222CE200D8653C /* BlockWebView.swift in Sources */,
+				030A135D1F222CE200D8653C /* BoolExtensions.swift in Sources */,
+				030A135E1F222CE200D8653C /* CGFloatExtensions.swift in Sources */,
+				030A135F1F222CE200D8653C /* CGPointExtensions.swift in Sources */,
+				030A13601F222CE200D8653C /* UIStackViewExtensions.swift in Sources */,
+				030A13611F222CE200D8653C /* CGRectExtensions.swift in Sources */,
+				030A13621F222CE200D8653C /* DictionaryExtensions.swift in Sources */,
+				030A13631F222CE200D8653C /* IntExtensions.swift in Sources */,
+				030A13641F222CE200D8653C /* NSAttributedStringExtensions.swift in Sources */,
+				030A13651F222CE200D8653C /* NSObjectExtensions.swift in Sources */,
+				030A13661F222CE200D8653C /* NSDictionaryExtensions.swift in Sources */,
+				030A13671F222CE200D8653C /* StringExtensions.swift in Sources */,
+				030A13681F222CE200D8653C /* UIAlertControllerExtensions.swift in Sources */,
+				030A13691F222CE200D8653C /* UIButtonExtensions.swift in Sources */,
+				030A136A1F222CE200D8653C /* TimerExtensions.swift in Sources */,
+				030A136B1F222CE200D8653C /* UIColoredView.swift in Sources */,
+				030A136C1F222CE200D8653C /* UIColorExtensions.swift in Sources */,
+				030A136D1F222CE200D8653C /* UIDeviceExtensions.swift in Sources */,
+				030A136E1F222CE200D8653C /* EZSwiftFunctions.swift in Sources */,
+				030A136F1F222CE200D8653C /* CollectionsExtension.swift in Sources */,
+				030A13701F222CE200D8653C /* UISliderExtensions.swift in Sources */,
+				030A13711F222CE200D8653C /* UIFontExtensions.swift in Sources */,
+				030A13721F222CE200D8653C /* UIImageExtensions.swift in Sources */,
+				030A13731F222CE200D8653C /* UIImageViewExtensions.swift in Sources */,
+				030A13741F222CE200D8653C /* UILabelExtensions.swift in Sources */,
+				030A13751F222CE200D8653C /* UITextViewExtensions.swift in Sources */,
+				030A13761F222CE200D8653C /* DateExtensions.swift in Sources */,
+				030A13771F222CE200D8653C /* UIViewControllerExtensions.swift in Sources */,
+				030A13781F222CE200D8653C /* UIViewExtensions.swift in Sources */,
+				030A13791F222CE200D8653C /* UIBarButtonItemExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5AF5775C1EEE527500B1C277 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1305,6 +1480,48 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		030A13811F222CE200D8653C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1.0.2;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "EZSwiftExtensions-iOS copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gbf.EZSwiftExtensions.EZSwiftExtensions;
+				PRODUCT_NAME = EZSwiftExtensions;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		030A13821F222CE200D8653C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1.0.2;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "EZSwiftExtensions-iOS copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gbf.EZSwiftExtensions.EZSwiftExtensions;
+				PRODUCT_NAME = EZSwiftExtensions;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		5AF577721EEE527500B1C277 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1614,6 +1831,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		030A13801F222CE200D8653C /* Build configuration list for PBXNativeTarget "EZSwiftExtensions-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030A13811F222CE200D8653C /* Debug */,
+				030A13821F222CE200D8653C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		5AF577761EEE527500B1C277 /* Build configuration list for PBXNativeTarget "EZSwiftExtensions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
