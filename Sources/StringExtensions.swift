@@ -8,11 +8,13 @@
 // swiftlint:disable line_length
 // swiftlint:disable trailing_whitespace
 
+import Foundation
+
 #if os(OSX)
     import AppKit
 #endif
 
-#if os(iOS) || os(tvOS)
+#if os(iOS) || os(tvOS) || os(watchOS)
     import UIKit
 #endif
 

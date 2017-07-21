@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import CoreGraphics
 
 extension Int {
     /// EZSE: Checks if the integer is even.
