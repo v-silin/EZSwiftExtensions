@@ -372,7 +372,7 @@ extension String {
     
     ///EZSE: Returns bold NSAttributedString
     public func bold() -> NSAttributedString {
-        let boldString = NSMutableAttributedString(string: self, attributes: [NSAttributedStringKey.font: UIFont.boldSystemFont(ofSize: UIFont.systemFontSize)])
+        let boldString = NSMutableAttributedString(string: self, attributes: [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: UIFont.systemFontSize)])
         return boldString
     }
     
@@ -382,7 +382,7 @@ extension String {
 
     ///EZSE: Returns underlined NSAttributedString
     public func underline() -> NSAttributedString {
-        let underlineString = NSAttributedString(string: self, attributes: [NSAttributedStringKey.underlineStyle: NSUnderlineStyle.styleSingle.rawValue])
+        let underlineString = NSAttributedString(string: self, attributes: [NSAttributedString.Key.underlineStyle: NSUnderlineStyle.single.rawValue])
         return underlineString
     }
     
@@ -392,7 +392,7 @@ extension String {
     
     ///EZSE: Returns italic NSAttributedString
     public func italic() -> NSAttributedString {
-        let italicString = NSMutableAttributedString(string: self, attributes: [NSAttributedStringKey.font: UIFont.italicSystemFont(ofSize: UIFont.systemFontSize)])
+        let italicString = NSMutableAttributedString(string: self, attributes: [NSAttributedString.Key.font: UIFont.italicSystemFont(ofSize: UIFont.systemFontSize)])
         return italicString
     }
     
@@ -402,11 +402,11 @@ extension String {
     
     ///EZSE: Returns hight of rendered string
     public func height(_ width: CGFloat, font: UIFont, lineBreakMode: NSLineBreakMode?) -> CGFloat {
-        var attrib: [NSAttributedStringKey: Any] = [NSAttributedStringKey.font: font]
+        var attrib: [NSAttributedString.Key: Any] = [NSAttributedString.Key.font: font]
         if lineBreakMode != nil {
             let paragraphStyle = NSMutableParagraphStyle()
             paragraphStyle.lineBreakMode = lineBreakMode!
-            attrib.updateValue(paragraphStyle, forKey: NSAttributedStringKey.paragraphStyle)
+            attrib.updateValue(paragraphStyle, forKey: NSAttributedString.Key.paragraphStyle)
         }
         let size = CGSize(width: width, height: CGFloat(Double.greatestFiniteMagnitude))
         return ceil((self as NSString).boundingRect(with: size, options: NSStringDrawingOptions.usesLineFragmentOrigin, attributes: attrib, context: nil).height)
@@ -418,7 +418,7 @@ extension String {
     
     ///EZSE: Returns NSAttributedString
     public func color(_ color: UIColor) -> NSAttributedString {
-        let colorString = NSMutableAttributedString(string: self, attributes: [NSAttributedStringKey.foregroundColor: color])
+        let colorString = NSMutableAttributedString(string: self, attributes: [NSAttributedString.Key.foregroundColor: color])
         return colorString
     }
     
@@ -437,7 +437,7 @@ extension String {
         }
         let attrText = NSMutableAttributedString(string: self)
         for range in ranges {
-            attrText.addAttribute(NSAttributedStringKey.foregroundColor, value: color, range: range)
+            attrText.addAttribute(NSAttributedString.Key.foregroundColor, value: color, range: range)
         }
         return attrText
     }

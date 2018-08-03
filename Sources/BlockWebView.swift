@@ -12,6 +12,7 @@ import UIKit
 
 ///Make sure you use  `[weak self] (NSURLRequest) in` if you are using the keyword `self` inside the closure or there might be a memory leak
 open class BlockWebView: UIWebView, UIWebViewDelegate {
+    
     open var didStartLoad: ((URLRequest) -> Void)?
     open var didFinishLoad: ((URLRequest) -> Void)?
     open var didFailLoad: ((URLRequest, Error) -> Void)?
@@ -39,13 +40,14 @@ open class BlockWebView: UIWebView, UIWebViewDelegate {
         didFailLoad? (webView.request!, error)
     }
 
-    open func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebViewNavigationType) -> Bool {
+    public func webView(_ webView: UIWebView, shouldStartLoadWith request: URLRequest, navigationType: UIWebView.NavigationType) -> Bool {
         if let should = shouldStartLoadingRequest {
             return should (request)
         } else {
             return true
         }
     }
+    
 }
 
 #endif
